@@ -1,1 +1,0 @@
-echo "teting_script is running correctly"
