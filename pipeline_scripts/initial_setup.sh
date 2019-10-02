@@ -8,4 +8,4 @@ echo "INSTALLING node.js"
 sudo apt install nodejs
 
 echo "INSTALLING pa11y-ci"
-sudo npm install -g pa11y-ci
+npm i pa11y-ci
