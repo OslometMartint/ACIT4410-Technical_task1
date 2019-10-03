@@ -1,4 +1,4 @@
-ehco "UPDATING"
+echo "UPDATING"
 sudo apt-get update
 
 echo "PULLING REPOSITORY"
