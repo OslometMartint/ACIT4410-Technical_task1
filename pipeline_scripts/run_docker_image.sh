@@ -15,5 +15,5 @@ echo "Stop and remove containers done"
 
 #Start docker container running the new image in the directory above
 echo "Attempting to run $NEW_IMG"
-`sudo docker run -d -p 80:80 $NEW_IMG` 
+`sudo docker run -d -p 3000:3000 $NEW_IMG` 
 echo "start new done"

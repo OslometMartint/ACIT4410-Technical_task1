@@ -3,4 +3,4 @@ FROM ubuntu:18.04
 RUN apt-get update 
 RUN apt-get install -y curl jed tree git wget 
 
-EXPOSE 80
+EXPOSE 3000
