@@ -1,6 +1,3 @@
-FROM ubuntu:18.04 
+FROM nginx:alpine 
 
-RUN apt-get update 
-RUN apt-get install -y curl jed tree git wget 
-
-EXPOSE 3000
+COPY . /usr/share/nginx/html
