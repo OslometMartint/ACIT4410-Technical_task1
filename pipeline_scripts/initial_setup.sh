@@ -7,5 +7,8 @@ git pull https://github.com/OslometMartint/ACIT4410-Technical_task1
 echo "INSTALLING node.js"
 sudo apt install nodejs
 
+echo "INSTALLING eslint"
+npm i -g eslint
+
 echo "INSTALLING pa11y-ci"
 npm i pa11y-ci
